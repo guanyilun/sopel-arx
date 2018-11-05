@@ -20,7 +20,7 @@ def print_search_results(bot, records):
         updated = record['updated']
         updated_date = parser.parse(updated)
         updated_date_str = updated_date.strftime('%Y-%m-%d')
-        outlines = "[%s] %s -- %s" % (update_date_str, \
+        outlines = "[%s] %s -- %s" % (updated_date_str, \
                                       record['title'], \
                                       record['id'])
         bot.say(outlines)
