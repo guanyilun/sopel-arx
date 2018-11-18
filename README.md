@@ -1,6 +1,9 @@
 # sopel-arx
 sopel wrapper for arxiv api
 
+## Dependencies
+arxiv
+
 ## Example
 ```
 <user> .arx search 21cm cosmology
